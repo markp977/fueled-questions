@@ -1,0 +1,73 @@
+.question{
+    width:80%;
+    height: 289px;
+    margin: 16px auto;
+    box-shadow: 0px 2px 4px 0 #ccc;
+    padding: 20px;
+    background-color: #fff;
+    p{
+        font-size: 14px;
+        margin-left:45px;
+        width: 10%;
+    }
+    
+    .question-field{
+        width: 90%;
+        margin: 0 auto;
+        label{
+            font-size: 12px;
+            line-height: 12px;
+        }
+        input{
+            width: 90%;
+            color: #161616;
+            padding: 20px;
+            border: 1px solid #000000;
+            margin:10px 0;
+        }
+        select{
+            width: 40%;
+            color: #161616;
+            padding: 20px;
+            border: 1px solid #000000;
+            margin:10px 0;
+        }
+        input.answer-input{
+            background-color: #e5e5e5;
+        }
+    }       
+}
+.question-form{
+    .add-question{
+        width: 84%;
+        margin: 0 auto;
+    }
+    button{
+        width: 100%;
+        background-color: #f5f5f1;
+        border: 1px solid #000000;
+        padding: 8px;
+        margin: -16px 10% 0 0;
+        &.delete{
+            background-image:url('../../images/bin.png');
+            width: 16px;
+            height: 16px;
+            border: none;
+            display: flex;
+            float: right;
+            margin-top: -16px;
+        }
+    }   
+}
+
+.save-questions{
+    width: 84%;
+    margin: 10px auto;
+    button{
+        width: 100%;
+        background: #AE0000;
+        border: 1px solid #000000;
+        padding: 8px;
+        color: #f5f5f1;
+    }
+}
